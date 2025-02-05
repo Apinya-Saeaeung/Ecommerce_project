@@ -9,7 +9,7 @@
 - Frontend: React (JavaScript)
 - Backend: Go (Gin), RESTful API
 - Database: PostgreSQL
--- อื่น ๆ: Docker, Google Authentication (Google Aut)
+- อื่น ๆ: Docker, Google Authentication (Google Aut)
 
 # 🏡ทีมพัฒนา
 - ดนัยธร ซ้ายเบี้ยว
