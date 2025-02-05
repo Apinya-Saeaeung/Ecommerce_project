@@ -1,0 +1,11 @@
+.new-badge {
+    position: absolute; /* ทำให้สามารถวางอยู่บนการ์ดได้ */
+    width: 60px;
+    top: 10px; /* ระยะห่างจากด้านบน */
+    right: 10px; /* ระยะห่างจากด้านขวา */
+    background-color: #007BFF; /* สีพื้นหลัง */
+    color: white; /* สีข้อความ */
+    padding: 5px 10px; /* ระยะห่างรอบข้อความ */
+    border-radius: 5px; /* ทำให้มุมมน */
+    font-weight: bold; /* ทำให้ข้อความหนา */
+}

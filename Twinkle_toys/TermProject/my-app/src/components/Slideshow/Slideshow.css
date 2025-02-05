@@ -1,0 +1,7 @@
+.carousel-container {
+    padding-top: 100px; /* เพิ่มพื้นที่ให้กับ Carousel */
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 0.5s ease;
+  }

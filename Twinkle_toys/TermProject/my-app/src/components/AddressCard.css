@@ -1,0 +1,55 @@
+/* Style สำหรับ container ของ AddressCard */
+.address-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  /* Style สำหรับ Card */
+  .address-card {
+    width: 70%;
+    /* margin-block: 1rem; */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* หัวข้อของที่อยู่ */
+  .address-card-title {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* เส้นกั้นระหว่างหัวข้อและเนื้อหา */
+  .address-card-hr {
+    margin-top: 5px;
+    border-color: #ddd;
+  }
+  
+  /* ส่วนของข้อมูลที่อยู่ */
+  .address-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* ส่วนชื่อและเบอร์โทร */
+  .address-info-left {
+    flex: 1;
+  }
+  
+  /* ที่อยู่ */
+  .address-info-address {
+    flex: 2;
+    padding: 0 10px;
+  }
+  
+  /* ปุ่มแก้ไข */
+  .address-info-button {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

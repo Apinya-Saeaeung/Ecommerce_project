@@ -1,0 +1,39 @@
+.div-body {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+
+.google-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-button img {
+    margin-right: 10px;
+}
+
+input {
+    width: 100%;
+    /* ขยาย Input ให้เต็มพื้นที่ที่สามารถใช้งานได้ */
+    padding: 15px;
+    /* เพิ่มพื้นที่ภายในของ Input */
+    margin-bottom: 20px;
+    /* ระยะห่างระหว่าง Input แต่ละอัน */
+    border: 1px solid #ccc;
+    /* ขอบของ Input */
+    border-radius: 5px;
+    /* มุมโค้งของ Input */
+    font-family: "Montserrat", sans-serif;
+    /* ใช้ฟอนต์เดียวกันทั้งระบบ */
+}

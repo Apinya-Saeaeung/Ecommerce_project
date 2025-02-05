@@ -1,0 +1,18 @@
+.retailer-link {
+    text-decoration: none; /* ไม่ให้มีเส้นใต้ */
+    color: black; /* สีข้อความ */
+    transition: transform 0.3s ease, color 0.3s ease; /* เพิ่มการเปลี่ยนแปลง */
+}
+
+.retailer-link:hover {
+    color: #3e3e3e; /* เปลี่ยนสีเมื่อ hover */
+    transform: scale(1); /* ขยายขนาดเมื่อ hover */
+}
+
+.retailer-image {
+    transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงสำหรับภาพ */
+}
+
+.retailer-image:hover {
+    transform: scale(1.05); /* ขยายขนาดภาพเมื่อ hover */
+}

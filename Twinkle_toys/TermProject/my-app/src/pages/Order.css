@@ -1,0 +1,54 @@
+/* สไตล์สำหรับหน้าสั่งซื้อ */
+.order-container {
+    padding-top: 120px;
+  }
+  
+  /* สไตล์สำหรับหัวข้อ */
+  .order-header {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* สไตล์การ์ดสำหรับรายละเอียดคำสั่งซื้อ */
+  .order-summary-card {
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    margin: auto; /* จัดให้อยู่ตรงกลาง */
+  }
+  
+  /* สไตล์สำหรับการโหลดและข้อผิดพลาด */
+  .loading-message,
+  .error-message {
+    text-align: center;
+    color: gray;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+  }
+
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ให้หน้าสูงเท่ากับจอ */
+  }
+  
+  .content-wrap {
+    flex: 1; /* ให้เนื้อหาขยายตัวเพื่อเติมพื้นที่ */
+  }
+  
+  footer {
+    background-color: #f8f9fa; /* ตัวอย่างสีพื้นหลัง */
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto; /* ดัน footer ให้อยู่ข้างล่างสุด */
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 10;
+}
+  

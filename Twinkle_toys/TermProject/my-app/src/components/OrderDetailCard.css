@@ -1,0 +1,65 @@
+/* order-detail-card-container */
+.order-detail-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 15px; */
+}
+
+/* order-detail-card */
+.order-detail-card {
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.product-list-group {
+    margin-top: 10px;
+}
+
+/* product-list-item */
+.product-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.product-list-item:hover {
+    background-color: #f9f9f9;
+}
+
+/* product-info */
+.product-info {
+    flex: 1;
+}
+
+/* product-image */
+.product-image img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* total-price */
+.total-price {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.seller-group {
+    margin-bottom: 20px;
+}
+
+/* การคั่นระหว่างส่วน */
+hr {
+    margin-top: 20px;
+    border-color: #bbb;
+    border-width: 1px;
+}

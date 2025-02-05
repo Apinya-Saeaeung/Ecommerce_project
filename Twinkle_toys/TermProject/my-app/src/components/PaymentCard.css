@@ -1,0 +1,91 @@
+/* PaymentCard.css */
+
+.payment-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+}
+
+.loading-text {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.payment-card {
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.payment-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-method-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-button {
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    margin-bottom: 1rem;
+}
+
+.confirmation-message {
+    margin-bottom: 1rem;
+}
+
+.add-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 1rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.add-card-button.added {
+    background-color: #28a745;
+    color: white;
+    border: 1px solid #28a745;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.total-amount {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.confirm-button {
+    width: auto;
+    padding: 0.3rem 0.6rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.confirm-payment {
+    text-align: right;
+    margin-top: 1rem;
+}

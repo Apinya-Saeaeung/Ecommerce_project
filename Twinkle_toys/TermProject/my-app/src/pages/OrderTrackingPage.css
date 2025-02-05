@@ -1,0 +1,53 @@
+/* General container styles */
+.order-tracking-container {
+    padding-top: 120px;
+}
+
+/* Navbar styling */
+.order-tracking-header {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+/* Filter buttons styling */
+.filter-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.filter-button {
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.filter-button.active {
+    transform: scale(1.1);
+}
+
+/* Card styling for no orders found */
+.no-orders-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.no-orders-card {
+    width: 50vw;
+    margin: 10px;
+    position: relative;
+}
+
+.no-orders-card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+}

@@ -1,0 +1,73 @@
+/* UserProfile.css */
+
+/* กำหนดสไตล์สำหรับการตั้งตำแหน่งของ Card */
+.user-profile-card {
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative; /* ตั้งค่าตำแหน่งสำหรับบุตรของมัน (ปุ่ม) */
+    border-radius: 50%;
+  }
+  
+  /* ปรับขนาดรูปโปรไฟล์ */
+  .profile-picture {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 100%; /* ป้องกันไม่ให้ภาพใหญ่เกินไปในกรณีที่ต้องการให้มีขนาดยืดหยุ่น */
+    max-height: 100%; /* ป้องกันไม่ให้ภาพใหญ่เกินไป */
+  }
+  
+  .user-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    white-space: nowrap; /* ป้องกันการตัดบรรทัด */
+    overflow: hidden;    /* ซ่อนข้อความที่เกิน */
+    text-overflow: ellipsis; /* แสดง ... หากข้อความยาวเกิน */
+  }
+  
+  .user-details-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* ปรับความกว้าง */
+  }
+  
+  /* ปรับการตั้งตำแหน่งของปุ่มแก้ไขโปรไฟล์ */
+  .edit-profile-btn {
+    position: absolute; /* ทำให้ปุ่มอยู่ในตำแหน่งที่กำหนด */
+    bottom: 10px; /* ตั้งค่าระยะห่างจากด้านล่างของ card */
+    right: 10px; /* ตั้งค่าระยะห่างจากด้านขวาของ card */
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ให้หน้าสูงเท่าจอ */
+  }
+  
+  .content-wrap {
+    flex: 1; /* ให้เนื้อหาส่วนนี้ขยายตัว */
+  }
+  
+  footer {
+    background-color: #f8f9fa; /* ตัวอย่างสีพื้นหลัง */
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto; /* ดัน footer ให้อยู่ล่าง */
+  }

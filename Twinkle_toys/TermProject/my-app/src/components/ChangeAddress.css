@@ -1,0 +1,110 @@
+/* ChangeAddress Modal */
+.change-address-modal {
+    font-family: Arial, sans-serif;
+}
+
+/* Modal Header */
+.change-address-modal__header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.change-address-modal__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Form */
+.change-address-modal__form {
+    margin-top: 10px;
+}
+
+.change-address-modal__form-group {
+    margin-bottom: 10px;
+}
+
+.change-address-modal__form-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Input Fields */
+.change-address-modal__form-control {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Modal Footer */
+.change-address-modal__footer {
+    display: flex;
+    justify-content: space-between; /* จัดให้ปุ่มอยู่คนละฝั่ง */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+/* ปุ่มยกเลิก */
+.change-address-modal__cancel-button {
+    background-color: #d6d8db; /* กำหนดพื้นหลังสีเทาอ่อน */
+    color: #495057; /* สีข้อความเทา */
+    border: 1px solid #d6d8db; /* กำหนดกรอบสีเทา */
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* ปุ่มยกเลิกเมื่อ hover */
+.change-address-modal__cancel-button:hover {
+    background-color: #999;
+    border-color: #999;
+}
+
+/* ปุ่มบันทึก */
+.change-address-modal__save-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #007bff; /* กรอบปุ่มบันทึก */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* ปุ่มบันทึกเมื่อ hover */
+.change-address-modal__save-button:hover:not(:disabled) {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* ปุ่มบันทึกเมื่อ disabled */
+.change-address-modal__save-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    border-color: #6c757d;
+}
+
+/* Alert */
+.change-address-modal__error {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    color: #e74c3c;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+
+/* Modal Footer */
+.change-address-modal__footer {
+    display: flex;
+    justify-content: space-between; /* จัดให้ปุ่มอยู่คนละฝั่ง */
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
